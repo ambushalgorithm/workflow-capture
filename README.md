@@ -57,6 +57,16 @@ clawhub install ambushalgorithm/workflow-capture
 
 Don't repeat yourself twice. If you've done something 3 times, it's worth automating. This skill helps you catch those moments and formalize them into reusable skills — without the mental overhead of remembering what you've done before.
 
+## Security
+
+**Never include secrets in skills.** Skills are stored in git and potentially shared via ClawHub. Never hardcode:
+- API keys or tokens
+- Passwords or credentials
+- Environment-specific configuration
+- Any sensitive information
+
+Use environment variables, 1Password references, or configuration files instead.
+
 ---
 
 **Built with OpenClaw** 🦖

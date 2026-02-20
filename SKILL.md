@@ -64,3 +64,4 @@ If agreed:
 - Don't over-trigger — wait for genuine reuse potential (2-3x minimum)
 - Keep suggestions brief and actionable
 - Always ask before creating; never assume
+- **Security**: Never include secrets, API keys, passwords, tokens, or sensitive information in skills. Skills are stored in git and potentially shared publicly via ClawHub. Use environment variables or 1Password references instead.
