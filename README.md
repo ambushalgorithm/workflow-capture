@@ -1,4 +1,4 @@
-# Workflow Capture
+# Workflow Capture Skill
 
 > Detects recurring workflows and prompts to create skills when reusable patterns emerge.
 
@@ -7,7 +7,7 @@ A meta-skill that watches for repeated patterns in your work and helps you captu
 ## What It Does
 
 - **Monitors for patterns**: Watches your conversations and actions for repeated workflows
-- **Prompts at the right time**: Suggests skill creation when reuse potential is clear (2-3+ occurrences)
+- **Prompts at the right time**: Suggests skill creation when reuse potential is clear (2-3+ occurrences or 30+ min conversations)
 - **Guides the process**: Helps scaffold, write, and package new skills using the skill-creator workflow
 
 ## When It Triggers
@@ -35,10 +35,10 @@ Just respond yes or no — if yes, it'll guide you through the skill creation pr
 
 ```bash
 # Clone the repo
-git clone https://github.com/ambushalgorithm/workflow-capture.git
+git clone https://github.com/ambushalgorithm/workflow-capture-skill.git
 
 # Or install via ClawHub
-clawhub install ambushalgorithm/workflow-capture
+clawhub install ambushalgorithm/workflow-capture-skill
 ```
 
 ## Requirements
