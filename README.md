@@ -12,6 +12,7 @@ A meta-skill that watches for repeated patterns in your work and helps you captu
 
 ## When It Triggers
 
+- Long conversations (30+ minutes in a single session)
 - Repeated tasks (2-3+ times)
 - Multi-step workflows that become routine
 - Conversations about creating skills
@@ -47,6 +48,7 @@ clawhub install ambushalgorithm/workflow-capture
 
 ## Examples
 
+- A session runs 45+ minutes → prompts to review what was accomplished
 - You frequently push to multiple repos → suggests a `multi-repo-push` skill
 - You repeatedly set up cron jobs → suggests a `cron-setup` skill
 - You create similar skills often → suggests a skill template

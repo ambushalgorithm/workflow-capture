@@ -14,15 +14,17 @@ Monitors conversations to identify reusable workflows and prompts when it makes 
 This skill activates when:
 
 1. **Repetition detected**: The same or similar task is performed 2-3+ times
-2. **Pattern emerges**: A multi-step workflow becomes routine or recurring
-3. **Skill discussion**: Any conversation about creating or improving skills
-4. **Reusable automation**: Any workflow that could be templated or scripted
+2. **Long conversation**: A single session or conversation thread lasts more than 30 minutes
+3. **Pattern emerges**: A multi-step workflow becomes routine or recurring
+4. **Skill discussion**: Any conversation about creating or improving skills
+5. **Reusable automation**: Any workflow that could be templated or scripted
 
 ## How It Works
 
 ### 1. Detection
 
 Track these signals:
+- Session duration (conversations lasting 30+ minutes)
 - Repeated operations (file edits, commands, configurations)
 - Recurring multi-step processes
 - Explicit mentions of skill creation
@@ -52,6 +54,7 @@ If agreed:
 
 ## Example Suggestions
 
+- "This conversation is 45 minutes in — we've covered a lot. Any reusable patterns to capture?"
 - "Pushed to 3 repos the same way — skill for multi-repo git operations?"
 - "Set up cron jobs repeatedly — skill for cron job templates?"
 - "Building similar skills — save this pattern?"
