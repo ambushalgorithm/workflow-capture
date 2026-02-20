@@ -41,6 +41,26 @@ git clone https://github.com/ambushalgorithm/workflow-capture-skill.git
 clawhub install ambushalgorithm/workflow-capture-skill
 ```
 
+## Setup
+
+This skill runs in the background to detect long conversations and repeated patterns. Add it to your heartbeat:
+
+```
+🤖 Workflow Capture Skill needs to run in the background to monitor for reusable workflows.
+
+Add to heartbeat? (Y/n)
+```
+
+If yes, add this to your `HEARTBEAT.md`:
+
+```markdown
+## Workflow Capture Skill
+
+- Run the workflow-capture skill to detect reusable patterns
+- Check session duration (30+ minutes)
+- Look for repeated tasks (2-3+ occurrences)
+```
+
 ## Requirements
 
 - OpenClaw v2026.2+
